@@ -1,11 +1,11 @@
-# Interneting Is Hard - CSS Box Model
+# Interneting Is Hard - Forms
 
-This is a solution to the [CSS Box Model tutorial No. 5 of HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/css-box-model/).
+This is a solution to the [Forms tutorial No. 13 of HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/forms/).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshots)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -17,14 +17,14 @@ This is a solution to the [CSS Box Model tutorial No. 5 of HTML & CSS Is Hard](h
 
 ## Overview
 
-### Screenshots
+### Screenshot
 
-![](./screenshot.jpg)
+![Forms screenshot](./forms.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Forms solution](https://github.com/jugglingdev/forms)
+- Live Site URL: [Forms live site](https://jugglingdev.github.io/forms/)
 
 ## My process
 
