@@ -35,19 +35,11 @@ This is a solution to the [Forms tutorial No. 13 of HTML & CSS Is Hard](https://
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I really enjoyed this tutorial.  Supposedly forms are hard, but at least I find them fun to build.
 
-To see how you can add code snippets, see below:
+The `<form>` element takes `action` and `method` attributes which define the web server's URL to process the data in the backend and how the form is submitted.  Use `method="post"` when changing data and `method="get"` when only getting data.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+*Text Input Fields*
 
 ### Continued development
 
