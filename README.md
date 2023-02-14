@@ -64,18 +64,31 @@ The next input type covered in this tutorial was `radio`.  For radio buttons, a 
 
 Since `<fieldsest>` does not support flexbox (at the time of this tutorial), floats was used.
 
-*Select Elements (Dropdown Menus)*
+Next up is dropdown menus.  Instead of using `<input>` plus `type`, they are coded with `<select>` plus an `id` and `name`.  They also have a matching `<label>` with a `for` element.  The difference here is that the dropdown has `<option>` elements as children, each with a unique `value` like in the T-Shirt Size dropdown from this tutorial.
+
+
+After dropdowns comes textareas, which are pretty straightforward.  The main thing to note with them is that `<textarea>` needs a closing tag.  Any default text that will go in the text box is put between the `<textarea>` tags.
+
+Coming up second-to-last is checkboxes.  Though checkboxes are similar to radio buttons, they do not require a `<fieldset>`.  In this tutorial, I wrapped the `<input>` element for the checkbox and the `<span>` element for the text in `<label>` tags to make it easier to match the final layout.
+
+Finally, there's the submit button.  It uses a `<button>` tag and is pretty neat because it validates the `<input>` elements and submit it to the `action` URL where the backend server would take it from here.
 
 ### Continued development
 
-The `<input>` element can also take attributes such as `required`, `minlength`, `maxlength`, and `pattern`.  I see some nice overlap with cybersecurity here in terms of validating identity and creating passwords.  These would be good to practice with down the road.
+The `<input>` element can also take attributes such as `required`, `minlength`, `maxlength`, and `pattern`.  I see some nice overlap with cybersecurity here in terms of validating identity and creating passwords.  These would be good to practice down the road.
 
 Another topic I'm curious about is custom radio button CSS.  I remember learning about custom list item types, so I'm curious how similar they are to each other.
+
+When working with dropdowns, the tutorial mentioned the challenges regarding styling dropdowns.  It's recommended to use Bootstrap Dropdowns or jQuery Selectmenus, both of which I'd like to look into for future projects.
+
+Probably the biggest area for development regarding forms is in at submission.  There's a lot more going on in the backend that I'd like to explore such as using `action` to send the data to a backend URL and using AJAX queries to submit the form while staying on the same page.
 
 ### Useful resources
 
 - [MDN Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) - This covers the different input types and attributes.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Advanced Form Styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling#Dealing_with_the_select_nightmare) - CSS styling for difficult elements such as dropdown menus.
+- [JavaScript Bootstrap](https://getbootstrap.com/docs/3.4/javascript/) - Recommended for styling dropdown menus.
+- [jQuery Selectmenu](https://jqueryui.com/selectmenu/#default) - Another option for styling dropdown menus.
 
 ## Author
 
